@@ -1,0 +1,587 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+  width: 100%;
+}
+
+article {
+  margin-left: 10%;
+  padding-top: 40px;
+}
+
+button {
+  border: none;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: white;
+  background-color: orange;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.souligne-texte-rose{
+    background-image: url(../images/image/souligne_rose.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 100%;
+    
+}
+
+
+h1 {
+  font: 84px "volkhov-bold";
+  color: #fff;
+}
+
+h2 {
+  font: 50px "volkhov-bold";
+  color: #14183e;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "PoppinsBold";
+  color: salmon;
+}
+
+h4 {
+  font: 18px "poppins-regular";
+  font-weight: 600;
+  color: #5e6282;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font: 500 16px/30px "poppins-regular";
+  color: white;
+}
+figcaption {
+  font-size: 24px;
+  color: gray;
+  text-align: center;
+}
+
+figure {
+  width: 320px;
+  text-align: center;
+  width: 320px;
+    text-align: center;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 1px 1px 10px 0.5px rgb(0 0 0.2);
+}
+
+/**Navbar*/
+
+/*CACHER ICONE MENU*/
+#btn-menu{
+  display: none;
+}
+
+/*CACHER LES LIENS ET AFFICHER L'ICONE*/
+@media screen and (max-width:1024px){
+  .liens{
+    display: none;
+  }
+  #btn-menu{
+    display: block;
+  }
+
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 70px;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+
+}
+
+ul li a {
+  padding: 0 20px 0 20px;
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+}
+.logo-sushi {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.logo-sushi:hover{
+  animation: logo-sushi 0.5s;
+}
+
+@keyframes logo-sushi{
+  20% { 
+    transform: rotate(15deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: rotate(5deg);
+  }
+
+  80%{
+    transform: rotate(-5deg);
+  }
+
+    to{
+      transform: rotate(0deg);
+    }
+  
+}
+
+
+
+#logos {
+  margin-left: 10%;
+}
+
+/**block1*/
+#section-1 {
+  background-image: url("../images/image/illustration_principale.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+/**block2 */
+#section-2 {
+  text-align: center;
+  background: url(../images/image/decor_1.svg);
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: 98% 2%;
+  
+  
+
+}
+
+#titres{
+
+}
+
+.menue-en-ligne {
+  display: flex;
+  justify-content: center;
+  padding-top:70px;
+  
+  
+}
+
+.menue-en-ligne img {
+  border-radius: 24px;
+}
+
+figcaption{
+padding-top: 30px;
+
+}
+.menue-maki {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 24px;
+  flex-wrap: wrap;
+}
+
+.bouton jaune {
+  justify-content: center;
+  font: 18px Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  
+}
+
+.bouton-conteneur {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/**block3*/
+
+#section-3 {
+  background-image: url("../images/image/illustration_chef.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 40px;
+  overflow:visible;
+}
+
+.video {
+  max-width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.video-image {
+  width: 300px;
+  height: 170px;
+  border-radius: 30px;
+}
+
+
+
+.bouton-play {
+  width: 55px;
+  height: 55px;
+  background: #fff;
+  border-radius: 30px;
+  position: relative;
+  right: 180px;
+  margin-top: 50px;
+  border: solid 5px white;
+}
+
+
+.photos-decos {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+}
+.photos-decos span figure img {
+  position: absolute;
+  left: 0;
+}
+
+.les-deux-photos-decos{
+    height: 300px;
+}
+
+
+
+/**block 4 */
+
+#section-4 {
+  background-image: url("../images/image/illustration_commander.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  
+}
+
+.commander{
+  color:rgb(245, 164, 227);
+  
+}
+
+#gras{
+  font-weight: bold;
+}
+.article-section-4{
+padding-top: 350px;
+
+}
+
+.text-bloc-4 {
+padding-top: 30px;
+wit: normal;
+
+
+}
+#block-ubbereats {
+  display: flex;
+  align-items: center;
+}
+
+#block-ubbereats  img {
+  margin-top: 30px;
+  width: 70px;
+}
+
+#block-ubbereats  p {
+  margin-left: 30px;
+}
+
+.couleur-gris {
+  color:#5e6282;
+  font: 20px"poppins-regular";
+
+
+}
+#block-jadoo {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+}
+
+#block-jadoo  img {
+  width: 70px;
+}
+
+#block-jadoo  p {
+  margin-left: 30px;
+}
+
+strong{
+margin-left: 3px;
+color:black;
+font-size: 20px;
+
+}
+.couleur-gris-2 {
+color:#5e6282;
+font-size: 20px;
+font-family:"poppins-regular";
+}
+
+
+#block-livraison {
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+}
+
+#block-livraison  img {
+  width: 85px;
+  margin-bottom: 70px;
+}
+
+#block-livraison  p {
+  margin-left: 30px;
+}
+
+.colour-gris-3{
+  color:#5e6282;
+  font-size: 20px;
+  font-family:"poppins-regular";
+  padding-bottom:25px;
+
+}
+
+.bouton-jaune{
+  margin-top: 50px;
+}
+
+
+
+/**block 5 */
+#section-5 {
+  width: 100%;
+  background-color: wi;
+  height: 800px;
+}
+.titres {
+  text-align: center;
+}
+.formulaire-de-contact {
+  width: 50%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.formulaire-de-contact-champ {
+}
+input {
+  width: 100%;
+  line-height: 3em;
+
+  padding: 0 0 5px;
+  color: #989898;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e2e4e5;
+  outline: 0;
+}
+
+label {
+  margin-top: 20px;
+  float: left;
+}
+
+.formulaire-de-champs-inline{
+  text-align: center;
+}
+.formulaire-de-gauche {
+  padding: 20px;
+  width: 50%;
+  border-radius: 20%;
+}
+
+.bouton-bleu {
+  background-color: #007aff;
+  box-shadow: 0px 20px 35px 5px rgb(11 54 59 / 15%);
+  margin: 50px 0 0;
+  border-radius: 4px;
+  font: 18px Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.centrer-bouton{
+text-align: center;
+
+}
+.image-de-droite {
+  width: 50%;
+}
+
+.image-de-droite img {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 100%;
+}
+
+/*footer*/
+.logo-complet img {
+  margin-left: 20px;
+}
+.logo-jadoo{
+  width: 50px;
+}
+
+.plan-restaurant {
+  margin-top: 30px;
+}
+
+.plan-contact {
+  margin-top: 10px;
+}
+#footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3f3f3;
+  margin-top: 100px;
+  padding: 70px 8% 20px 0;
+  font-size:16px;
+}
+
+
+.logo-complet{
+padding-left: 48px;
+padding-top: 15px;
+
+}
+.phrase-logo{
+  
+  font-size: 25px;
+  color: #5e6282;
+  padding-left:70px;
+
+}
+
+.plan-restaurant{
+
+  color: #5e6282;
+  font-size: 25px;
+
+}
+
+.texte-poppins-bold-plan-restau{
+  font-size:30px;
+  font-family: "poppins-bold";
+  color: black;
+}
+
+         
+         
+.centre-droite-contact{
+  color: #5e6282;
+  font-size: 25px;
+
+
+
+}
+
+.texte-poppins-bold-contact{
+  font-size:30px;
+  font-family: "poppins-bold";
+  color: black;
+
+}
+
+#footer-UberEats{
+
+  margin-top: 35px;
+}
+
+.logo-ubereats{
+  margin-left: 50px;
+  margin-top: 10px;
+  height: 15px;
+  font-size: 12px;
+
+}
+
+.color-gris-telecharger{
+  color: #5e6282;
+  font-size: 25px;
+
+}
+
+
+
+.google-play {
+  box-sizing: border-box;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.apple-stores {
+  box-sizing: border-box;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.app-download-button {
+  border: none;
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.app-download-button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: wheat;
+}
+
+
+
+
+
+/* Tablette */
+
+

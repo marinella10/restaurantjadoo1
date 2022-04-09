@@ -1,0 +1,26 @@
+
+@media screen and (max-width:1024px){
+
+/**Navbar*/
+#logos{
+    margin-left:3%;
+  }
+/*CACHER ICONE MENU*/
+#btn-menu{
+    display: none;
+  }
+
+
+  /** section 1*/
+
+    #section-1{
+        width: 25%;
+    }
+
+/** section 2 */
+
+#section-2{
+    display: block;
+}
+
+}

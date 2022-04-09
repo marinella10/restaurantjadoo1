@@ -1,0 +1,296 @@
+
+
+/**Navbar*/
+
+/*CACHER ICONE MENU*/
+#btn-menu{
+    display: none;
+  }
+  
+  /*CACHER LES LIENS ET AFFICHER L'ICONE*/
+  @media screen and (max-width:1024px){
+  
+    h4{
+      font:24px;
+    }
+
+  h5{
+    font-size: 20px;
+  }
+
+  figcaption{
+
+    font-size: 26px;
+
+  }
+
+    article{
+      margin-left: 2%;
+    }
+
+    .liens{
+      display: none;
+    }
+    #btn-menu{
+      display: block;
+    }
+
+    .formulaire-de-contact{
+        width: 90%;
+        margin: 60px;
+      }
+
+      label{
+        font-size: 16px;
+      }
+
+      input{
+        font-size: 18px;
+      }
+
+      input prenom{
+        font-size: 18px;
+      }
+
+      input email{
+
+        font-size: 18px;
+      }
+
+     input Message{
+       font-size: 16px;
+
+
+    }
+    
+      .image-de-droite {
+        display: none;
+        }
+        .formulaire-de-gauche{
+            width: 100%;
+            font-size:20px;
+        }
+  
+        /** nav-bar */ 
+
+        ul{
+          margin-right:270px;
+
+
+        }
+
+        /** section 1 */
+        #section-1
+
+        .soulgine-texte-rose{
+        Width: 50%;
+
+        }
+
+        button{
+          margin-left: 60px;
+        }
+
+
+        /** section2*/
+        #section-2
+          .menue-en-ligne{
+           display: block;
+          }
+
+          .titres{
+            margin-right: 652px;
+          }
+        
+          .bouton-conteneur{
+            margin-right: 605px;
+
+          }
+
+          .bouton-bleu{
+            margin-right: 395px;
+          }
+           
+
+          /**footer*/
+         #footer{
+           display: block;
+         }
+
+         .plan-restaurant{
+          margin-left: 25px;
+         }
+           
+         .centre-droite-contact{
+          margin-left: 25px;
+         }
+
+         #footer-UberEats{
+          margin-left: 25px;
+         }
+
+         .logo-ubereats{
+           margin-left:20px;
+         }
+       
+  }
+
+
+
+.les-deux-photos-decos{
+    height: 300px;
+}
+
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 65px;
+    }
+
+
+      #section-1{}
+
+      h5{
+        margin-left: 40px;
+        font-size: 14px;}
+
+      
+    
+    #section-2{
+        background: none;
+        
+    }
+
+    h3{
+      margin-left: 65px;
+    }
+
+    h4{
+
+      margin-left: 125px;
+    }
+
+    h2{
+
+      margin-left:20px;
+    }
+
+    button{
+      margin-left:130px;
+    }
+
+    #section-3{}
+
+    h5{
+      font-size: 20px;
+    }
+
+    .bouton-jaune{
+      margin-left:30px;
+    }
+
+    /**section3 */
+
+    #section-3{}
+    
+    .video-image{
+      margin-left: 40px;
+    }
+   
+    
+
+
+    /**section 4 */
+
+    #section-4{
+        margin-top: 600px;
+        background: white!important;
+    }
+    .souligne-texte-rose{
+      margin-left:65px;
+      font-size: 35px;
+    }
+
+    .photos-decos span figure img{
+        position: static;
+        width: 100%;
+    }
+
+
+  .photos-decos{
+    display: block;
+  }
+  .photos-decos img{
+    width: 100%;
+  }
+
+  #section-5{
+    height: 100%;
+}
+
+h4{
+  margin-left: 100px;
+
+}
+
+h2{
+  padding-left: 55px;
+}
+
+  .formulaire-de-contact{
+    width: 70%;
+    margin: 60px;
+  }
+
+  .image-de-droite {
+    display: none;
+    }
+    .formulaire-de-gauche{
+        width: 100%;
+    }
+
+    .bouton-bleu{
+    margin:12px;
+    margin-right: 190px;
+
+    }
+    input message{
+
+  font-size: 18px;
+    }
+
+  #footer{
+
+  }
+
+  .logo-complet{
+    padding-left: 90px;
+  }
+
+  .texte-poppins-bold-plan-restau {
+    margin-left: 35px;
+  }
+
+
+  p{
+    margin-left: 35px;
+    font-size: 16px;
+  }
+
+  .logo-ubereats{
+    margin-left: 50px;
+  }
+
+
+  .app-download-button{
+    margin-left: 20px;
+  }
+
+  .app-download-button{
+    margin-right: -7px;
+
+
+  
+  }
+
+}
+
